@@ -1,0 +1,157 @@
+#heading{
+height: 25px;
+width: 100%;
+background-image: linear-gradient(45deg, red 2%, green, yellow);
+text-align: center;
+text-decoration: underline;
+}
+#socond{
+    
+    width: 600px;
+    height: 80px;
+    border: 5px solid red;
+    background-color: aqua;
+    text-align: center;
+    border-radius: 10px;
+    position: relative;
+    left: 350px
+}
+#third{
+background-color: aquamarine;
+display: flex;
+width: 100%;
+height: 150px;
+border: 2px solid red;
+border-radius: 10px;   
+}
+.divthird{
+background-color: lightgray;
+margin: 10px;
+height: 70px;
+width: 450px;
+border: 2px solid green;
+border-radius: 7px;
+}
+#third-first{
+width: 500px;
+position: relative;
+left: 124px;
+bottom: 10px;
+}
+#third-second{
+width: 500px;
+position: relative;
+left: 124px;
+bottom: 10px;
+}
+#third-third{
+width: 500px;
+position: relative;
+top: 65px;
+right: 200px;
+}
+#third-forth{
+    width: 500px;
+    margin: 20px;
+    position: relative;
+    bottom: 20px;
+}
+#heading2{
+    height: 30px;
+    background-image: linear-gradient(45deg, red 2%, rgb(216, 216, 58), red);
+    text-align: center;
+    text-decoration: underline;
+}
+#forth{
+    display: flex;
+width: 100%;
+height: 250px;
+background-image: linear-gradient(to left , rgb(157, 219, 157) -0%, rgb(31, 89, 197), rgb(95, 156, 95) );
+border: 2px solid green;
+}
+#forth-first{
+    background-color: yellow;
+    border: 2px solid red;
+    height: 100px;
+    width: 190px;
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: underline;
+    margin: 60px;
+}
+#forth-second{
+    background-color: yellow;
+    border: 2px solid red;
+    height: 100px;
+    width: 190px;
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: underline;
+    margin: 60px;
+}
+#forth-third{
+    background-color: yellow;
+    border: 2px solid red;
+    height: 100px;
+    width: 190px;
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: underline;
+    margin: 60px;
+}
+#forth-forth{
+    background-color: yellow;
+    border: 2px solid red;
+    height: 100px;
+    width: 190px;
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: underline;
+    margin: 60px;
+}
+.grid-div{
+    background-color: white;
+height: auto;
+border: 1px solid red;
+padding: 20px;
+margin: 10px;
+display: grid;
+grid-template-columns: repeat(3, 1fr) 100px;
+grid-template-rows: 60px 100px 100px 60px;
+grid-gap: 20px 20px;
+grid-template-rows: minmax(150px);
+}
+.grid-element{
+    font-size: 17px;
+font-weight: bold;
+}
+#gird1{
+    text-align: center;
+    background-color: #ff4757;
+    grid-column: 1/5;
+}
+#gird2{
+    background-color: lightgreen;
+    grid-column: 1/2;
+}
+#gird3{
+    background-color: blueviolet;
+}
+#gird4{
+    background-color: skyblue;
+}
+#gird5{
+color: white;
+background-color: black;
+grid-row: 2/4;
+grid-column: 4/5;
+}
+#gird6{
+    background-color: rgba(241, 241, 75, 0.952);
+    grid-column: 1/4;
+}
+#gird7{
+    text-align: center;
+    background-color: rgb(39, 47, 122);
+    grid-column: 1/5;
+}
